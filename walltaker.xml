@@ -19,7 +19,7 @@
       <rectangle macro="decorative_rect" flex_direction="column" gap="8">
 
         <!-- Main image -->
-        <image id="UwU" width="1024" height="1024" new_pass="1" src="$HOME/.config/wayvr/theme/gui/walltaker/placeholder.png" />
+        <image id="UwU" width="1024" height="1024" new_pass="1" src="$HOME/.config/wayvr/theme/gui/walltaker/placeholder.svg" />
 
         <!-- Author label -->
         <label id="UwUPoster" text="waiting for new post" align="center" weight="bold" size="24" />
