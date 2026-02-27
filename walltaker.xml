@@ -1,0 +1,49 @@
+<layout>
+  <theme>
+    <var key="set_color" value="#cad3f5" />
+    <var key="bgcolor" value="#010206d5" />
+  </theme>
+
+  <macro name="decorative_rect"
+         padding="8" color="~bgcolor"
+         border="2" border_color="~color_accent" round="8" />
+
+  <macro name="button_style"
+         padding="8"
+         border_color="~color_accent_translucent" border="2" round="8"
+         color="~color_accent_5" color2="~color_accent_1" gradient="vertical"
+         align_items="center" justify_content="center" />
+
+  <elements>
+    <div padding="32" interactable="0" flex_direction="column" gap="8">
+      <rectangle macro="decorative_rect" flex_direction="column" gap="8">
+
+        <!-- Main image -->
+        <image id="UwU" width="1024" height="1024" new_pass="1" src="$HOME/.config/wayvr/theme/gui/walltaker/placeholder.png" />
+
+        <!-- Author label -->
+        <label id="UwUPoster" text="waiting for new post" align="center" weight="bold" size="24" />
+
+        <!-- Button row -->
+        <div flex_direction="row" gap="8" align_items="center" justify_content="center">
+          <Button macro="button_style" width="200" _press="::ShellExec ~/.config/wayvr/theme/gui/walltaker/walltakerctl.sh fetch">
+            <sprite width="40" height="40" color="~set_color" src="$HOME/.config/wayvr/theme/gui/walltaker/reload.svg" />
+          </Button>
+          <Button macro="button_style" width="200" _press="::ShellExec ~/.config/wayvr/theme/gui/walltaker/walltakerctl.sh response_came">
+            <sprite width="40" height="40" color="~set_color" src="$HOME/.config/wayvr/theme/gui/walltaker/came.svg" />
+          </Button>
+          <Button macro="button_style" width="200" _press="::ShellExec ~/.config/wayvr/theme/gui/walltaker/walltakerctl.sh response_horny">
+            <sprite width="40" height="40" color="~set_color" src="$HOME/.config/wayvr/theme/gui/walltaker/horny.svg" />
+          </Button>
+          <Button macro="button_style" width="200" _press="::ShellExec ~/.config/wayvr/theme/gui/walltaker/walltakerctl.sh response_ok">
+            <sprite width="40" height="40" color="~set_color" src="$HOME/.config/wayvr/theme/gui/walltaker/ok.svg" />
+          </Button>
+          <Button macro="button_style" width="200" _press="::ShellExec ~/.config/wayvr/theme/gui/walltaker/walltakerctl.sh response_disgust">
+            <sprite width="40" height="40" color="~set_color" src="$HOME/.config/wayvr/theme/gui/walltaker/disgust.svg" />
+          </Button>
+        </div>
+
+      </rectangle>
+    </div>
+  </elements>
+</layout>
