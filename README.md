@@ -47,9 +47,11 @@ It also watches these programs/services to see if they exited, then walltaker wi
 
 ## How to start/control
 
+### Main Service
 Start walltaker client by running `$HOME/.config/wayvr/theme/gui/walltaker/walltaker.sh`
 I have it as a local plugin in envision
 
+### WalltakerCTL
 #### THERE IS NO NEED TO RUN THIS ONE MANUALLY
 #### The wayvr window will call this script when interacted with
 The other script `$HOME/.config/wayvr/theme/gui/walltaker/walltakerctl.sh`
