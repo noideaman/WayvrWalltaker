@@ -15,7 +15,8 @@ Let people share MSG into your wayvr overlay
 - imagemagick
   
 ## Install
-Copy all files to `$HOME/.config/wayvr/theme/gui`
+### [DOWNLOAD](https://github.com/noideaman/WayvrWalltaker/archive/refs/heads/main.zip)
+Then copy all files to `$HOME/.config/wayvr/theme/gui`
 
 <img width="286" height="480" alt="image" src="https://github.com/user-attachments/assets/fd2c2caf-d5d7-4f48-928c-0e1462b1e2c0" />
 
